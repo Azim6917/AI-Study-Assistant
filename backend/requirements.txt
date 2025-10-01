@@ -1,12 +1,5 @@
-<<<<<<< HEAD
 fastapi
 uvicorn
 openai
 pydantic
-=======
-fastapi
-uvicorn
-openai
-pydantic
->>>>>>> bdc30abf61b5293468a5d75efd887ed20cc6cf1b
 PyPDF2

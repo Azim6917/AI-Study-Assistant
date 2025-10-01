@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # from fastapi import FastAPI, UploadFile, Form
 # from fastapi.middleware.cors import CORSMiddleware
 # from pydantic import BaseModel
@@ -270,7 +269,7 @@ async def ask(req: TextRequest):
         max_tokens=400
     )
     return {"answer": response.choices[0].message["content"].strip()}
-=======
+
 # from fastapi import FastAPI, UploadFile, Form
 # from fastapi.middleware.cors import CORSMiddleware
 # from pydantic import BaseModel
@@ -542,4 +541,3 @@ async def ask(req: TextRequest):
         max_tokens=400
     )
     return {"answer": response.choices[0].message["content"].strip()}
->>>>>>> bdc30abf61b5293468a5d75efd887ed20cc6cf1b
